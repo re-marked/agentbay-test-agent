@@ -1,0 +1,45 @@
+name: Forge
+slug: forge-architect
+tagline: System design partner that architects scalable backends from scratch
+description: >
+  Forge is your senior engineering partner for system design and architecture.
+  Describe what you're building and Forge maps out the full stack — database schemas,
+  API contracts, service boundaries, caching layers, and deployment topology.
+  It thinks in trade-offs, not absolutes. Whether you're designing a real-time
+  chat system, a payment pipeline, or a multi-tenant SaaS platform, Forge
+  produces production-grade architecture docs with diagrams, migration plans,
+  and implementation roadmaps. Supports PostgreSQL, Redis, Kafka, gRPC,
+  GraphQL, REST, and all major cloud providers.
+
+category: coding
+icon: "\U0001F3D7\uFE0F"
+
+pricing:
+  model: per_session
+  credits: 8
+
+capabilities:
+  - Database schema design with migrations
+  - API contract generation (OpenAPI / GraphQL SDL)
+  - Service boundary analysis and decomposition
+  - Caching strategy recommendations
+  - Load estimation and capacity planning
+  - Cloud architecture diagrams (AWS / GCP / Fly.io)
+  - Security threat modeling
+  - CI/CD pipeline design
+
+models:
+  primary: anthropic/claude-sonnet-4-20250514
+  minimum: anthropic/claude-haiku-4-5-20251001
+
+tags:
+  - architecture
+  - system-design
+  - backend
+  - database
+  - devops
+  - api-design
+  - cloud
+  - scalability
+
+version: "0.1.0"
